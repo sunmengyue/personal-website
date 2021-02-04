@@ -57,11 +57,21 @@ body {
   font-size: 0.85rem;
 }
 
-.about__content > div {
-  margin: 2.5rem 0;
+.about__content .about__contentBox {
+  padding: 2rem 0;
 }
 
-.about__content > div > span {
+.about__contentBox:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.about__contentBox:hover .icon {
+  padding: 0.7rem;
+  color: #e27689;
+}
+
+.about__content .icon {
   padding: 0.7rem;
 }
 
