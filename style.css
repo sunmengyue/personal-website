@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* Side bar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about {
+  flex: 0.2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-color: #222629;
+  color: #fff;
+  text-align: right;
+  padding: 2rem;
+}
+.about__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.personalInfo > h2 {
+  font-weight: 600px;
+  font-size: 1.5rem;
+  margin-bottom: 0.15rem;
+}
+
+.personalInfo {
+  margin: 1.5rem 0;
+}
+
+.personalInfo > p {
+  font-weight: 300px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+.about__header > img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  border-radius: 4px;
+}
+
+.about__content {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+.about__content > div {
+  margin: 2.5rem 0;
+}
+
+.about__content > div > span {
+  padding: 0.7rem;
+}
+
+/* Main  */
+#present {
+  flex: 0.8;
+}

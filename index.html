@@ -4,33 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simon Sun</title>
+    <script
+      src="https://kit.fontawesome.com/7ba854414b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <script
-    src="https://kit.fontawesome.com/7ba854414b.js"
-    crossorigin="anonymous"
-  ></script>
   <body>
     <side class="about">
       <div class="about__header">
-        <img src="" alt="avatar" />
-        <div>
+        <img src="./img/avatar.jpg" alt="avatar" />
+        <div class="personalInfo">
           <h2>Simon Sun</h2>
           <p>Frontend Engineer</p>
         </div>
       </div>
-      <div class="intro">
-        Intro <span><i class="fas fa-home"></i></span>
-      </div>
-      <div class="portfolio">
-        Portfolio <span><i class="fas fa-folder-open"></i></span>
-      </div>
-      <div class="aboutMe">
-        About Me <span><i class="fas fa-user"></i></span>
-      </div>
-      <div class="contact">
-        Contact <span><i class="fas fa-envelope"></i></span>
+      <div class="about__content">
+        <div class="intro">
+          Intro <span class="icon"><i class="fas fa-home"></i></span>
+        </div>
+        <div class="portfolio">
+          Portfolio <span class="icon"><i class="fas fa-folder-open"></i></span>
+        </div>
+        <div class="aboutMe">
+          About Me <span class="icon"><i class="fas fa-user"></i></span>
+        </div>
+        <div class="contact">
+          Contact <span class="icon"><i class="fas fa-envelope"></i></span>
+        </div>
       </div>
     </side>
-    <main></main>
+    <main id="present"></main>
   </body>
 </html>
