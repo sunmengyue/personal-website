@@ -53,15 +53,20 @@ body {
 }
 
 .about__content {
-  color: rgba(255, 255, 255, 0.5);
+  list-style-type: none;
   font-size: 0.85rem;
 }
 
 .about__content .about__contentBox {
-  padding: 2rem 0;
+  margin: 2.5rem 0;
 }
 
-.about__contentBox:hover {
+.about__contentBox > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.about__contentBox > a:hover {
   cursor: pointer;
   color: #fff;
 }
