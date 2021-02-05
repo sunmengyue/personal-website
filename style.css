@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5rem;
 }
 
 body {
@@ -13,20 +14,36 @@ body {
 }
 
 .about {
-  flex: 0.2;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-start;
+  align-items: flex-start;
   background-color: #222629;
   color: #fff;
-  text-align: right;
-  padding: 2rem;
+  width: 20vw;
+  padding: 2.5rem;
 }
+
 .about__header {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.about__header > img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+  margin-right: 2rem;
+}
+
+.personalInfo {
+  text-align: right;
+  margin-left: 0.3rem;
+  font-weight: 300;
 }
 
 .personalInfo > h2 {
@@ -35,35 +52,36 @@ body {
   margin-bottom: 0.15rem;
 }
 
-.personalInfo {
-  margin: 1.5rem 0;
-}
-
 .personalInfo > p {
   font-weight: 300px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
 }
-.about__header > img {
-  object-fit: contain;
-  height: 50px;
-  width: 50px;
-  margin-left: auto;
-  border-radius: 4px;
-}
 
 .about__content {
+  margin-top: 2.5rem;
   list-style-type: none;
   font-size: 0.85rem;
 }
 
-.about__content .about__contentBox {
+.about__contentBox {
   margin: 2.5rem 0;
 }
 
 .about__contentBox > a {
+  font-size: 1rem;
+  text-align: right;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+.about__content .icon {
+  margin-right: 7.4rem;
+  font-size: 1rem;
 }
 
 .about__contentBox > a:hover {
@@ -72,15 +90,12 @@ body {
 }
 
 .about__contentBox:hover .icon {
-  padding: 0.7rem;
-  color: #e27689;
+  color: #318ce7;
 }
 
-.about__content .icon {
-  padding: 0.7rem;
+@media screen and (max-width: 960px) {
 }
 
 /* Main  */
 #present {
-  flex: 0.8;
 }
