@@ -21,7 +21,7 @@ body {
   align-items: flex-start;
   background-color: #222629;
   color: #fff;
-  width: 20vw;
+  flex: 0.15;
   padding: 2.5rem;
 }
 
@@ -98,4 +98,5 @@ body {
 
 /* Main  */
 #present {
+  flex: 0.85;
 }
